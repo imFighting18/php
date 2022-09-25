@@ -9,5 +9,5 @@ echo $adicao;
 echo "<hr>";
 
 $subtracao = $a - $b;
-echo $adicao;
+echo $subtracao;
 echo "<hr>";
