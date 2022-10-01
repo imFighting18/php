@@ -1,6 +1,6 @@
 <?php
 
-$nome = "Gabriel";
+$nome = "Gabriel estou testando";
 
 $novoNome = strtoupper($nome);
 echo $novoNome;
@@ -16,5 +16,7 @@ echo str_repeat($nome, 5);
 echo "<hr>";
 echo strlen($nome);
 echo "<hr>";
-echo str_replace($nome);
+echo str_replace("Gabriel", "Rodrigo", $nome);
+echo "<hr>";
+echo strpos($nome, "estou");
 echo "<hr>";
